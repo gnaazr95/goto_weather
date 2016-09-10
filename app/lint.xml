@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="ClickableViewAccessibility">
+        <ignore path="src/com/example/go_toweather/MainMenu.java" />
+    </issue>
+    <issue id="InflateParams">
+        <ignore path="src/com/example/go_toweather/CustomListAdapter.java" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src/com/example/go_toweather/MainActivity.java" />
+    </issue>
+    <issue id="ViewHolder">
+        <ignore path="src/com/example/go_toweather/CustomListAdapter.java" />
+    </issue>
+</lint>

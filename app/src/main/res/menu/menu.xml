@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:yourpackage="http://schemas.android.com/apk/res/com.example.go_toweather" >
+
+<item
+    android:id="@+id/action_search"
+    android:icon="@drawable/search"
+    android:title="TITLE"
+    yourpackage:actionViewClass="com.example.go_toweather.ArrayAdapterSearchView"
+    yourpackage:showAsAction="ifRoom|collapseActionView"/>
+
+</menu>
